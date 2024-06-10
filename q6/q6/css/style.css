@@ -1,1 +1,34 @@
 @charset "UTF-8";
+body{
+	margin:0;
+}
+header{
+	width: 100%;
+	background: #388bff;
+}
+.top{
+	display:grid;
+	width: 100%;
+	max-width: 1100px;
+	grid-auto-flow: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	padding: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #f2ff7b;
+}
+.nav-list{
+	display: grid;
+	padding: 30px;
+	column-gap: 50px;
+	grid-auto-flow: column;
+
+}
+.nav-list-item a{
+	color: #ffffff;
+	text-decoration: none;
+}
