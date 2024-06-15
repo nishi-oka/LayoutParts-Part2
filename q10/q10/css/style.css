@@ -1,1 +1,74 @@
 @charset "UTF-8";
+body{
+	margin: 0 auto;
+	text-align: center;
+}
+.question--title{
+	position: relative;
+	width: 100%;
+}
+.red-button, .blue-button, .green-button{
+	border-radius: 10px;
+	padding: 0 15px;
+	cursor: pointer;
+	line-height:50px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.red-button{
+	color: #fff;
+	background: #fd0f0fd9;
+}
+.blue-button{
+	color: #fff;
+	background: #170ffdd9;
+}
+.green-button{
+	color: #000;
+	background: #0ffd0fd9;
+	margin-right: 0;
+}
+.q10-2 .red-button{
+	box-shadow: 0px 5px 0px rgba(63, 5, 5, 0.851);
+}
+.q10-2 .blue-button{
+	box-shadow: 0px 5px 0px rgba(5, 13, 63, 0.851);
+}
+.q10-2 .green-button{
+	box-shadow: 0px 5px 0px rgba(5, 63, 5, 0.851);
+}
+.q10-3 .red-button:active, .q10-3 .blue-button:active, .q10-3 .green-button:active {
+	box-shadow: none;
+	transform: translateY(2px);
+}
+.button1, .button2, .button3{
+	border-radius: 10px;
+	padding: 0 15px;
+	cursor: pointer;
+	line-height:50px;
+	display: inline-block;
+	margin-right: 30px;
+	color: #67c5ff;
+}
+.button1{
+	border:4px double #67c5ff;
+}
+.button1:hover{
+	background: #fffbef;
+}
+.button2{
+	border: 4px dotted #75caff;
+}
+.button2:hover{
+	border: 4px dashed #75caff;
+}
+.button3{
+	color: #0079a5f8;
+	background: #d0edfff8;
+	border: 4px dashed #67c5ff;
+}
+.button3:hover{
+	color: #67c5ff;
+	background: #ffffff;
+}
