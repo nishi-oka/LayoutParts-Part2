@@ -24,7 +24,6 @@ header{
 	padding: 30px;
 	column-gap: 50px;
 	grid-auto-flow: column;
-
 }
 .nav-list-item a{
 	color: #ffffff;
