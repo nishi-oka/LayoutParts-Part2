@@ -3,13 +3,11 @@ body{
 	margin:0;
 }
 header{
-	width: 100%;
 	background: #388bff;
 }
 .top{
-	display:grid;
-	width: 100%;
-	max-width: 1100px;
+	display:flex;
+	width: 1100px;
 	grid-auto-flow: column;
 	align-items: center;
 	justify-content: space-between;
@@ -22,7 +20,7 @@ header{
 	color: #f2ff7b;
 }
 .nav-list{
-	display: grid;
+	display: flex;
 	padding: 30px;
 	column-gap: 50px;
 	grid-auto-flow: column;
